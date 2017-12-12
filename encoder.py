@@ -83,7 +83,7 @@ class DataEncoder:
           threshold: (float) Jaccard index threshold
 
         Returns:
-          boxes: (tensor) bounding boxes, sized [#obj, 8732, 4].
+          boxes: (tensor) bounding boxes, sized [8732, 4].
           classes: (tensor) class labels, sized [8732,]
         '''
         default_boxes = self.default_boxes
